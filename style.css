@@ -81,6 +81,8 @@ ul li:hover a{
     display: flex;
     background-image: url(images/bg.png);
     background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 200px;
 }
 .half-width-2{
     width: 40%;
@@ -102,3 +104,130 @@ ul li:hover a{
     font-size: 20px;
     margin-bottom: 20px;
 }
+.popular-recipies{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+.content{
+    width: 65%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.popular-recipies .content p{
+    justify-content: center;
+    color:rgb(109, 113, 116);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.popular-recipies .content h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color:  rgb(109, 113, 116);
+}
+.recipie-card{
+    display: flex;
+}
+.menu-card h3{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: rgb(235, 175, 64);
+}
+.menu-card p{
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    line-height: 1.5em;
+    color: rgb(109, 113, 116);
+}
+.menu-card{
+    width: 31.33%;
+    margin: 0 1%;
+    box-shadow: 10px 10px 50px rgb(53, 52, 52);
+    padding: 20px 20px;
+    text-align: left;
+    border-radius: 30px;
+}
+.menu-card img{
+    width: 100%;
+    height: auto;
+}
+.social-engagement{
+    display: flex;
+    width: 80%;
+    max-height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 10px 10px 50px rgb(53, 52, 52);
+    border-radius: 20px;
+}
+.social h1{
+    font-size: 50px;
+    margin-top: 70px;
+}
+.social p{
+    margin-bottom: 100px;
+}
+.social{
+    width: 31.33%;
+    margin: 0 2%;
+    text-align: center;
+    padding: 30px 0;
+}
+.subscribe{
+	background-image: url(images/bg.png);
+	margin-top: 100px;
+    padding:80px 0;
+	text-align:center;
+    letter-spacing: 0.01em;
+    line-height: 1.5em;
+    color: rgb(109, 113, 116);
+}
+.sub img{
+	width:60px;
+	height:auto;
+}
+.subscribe form{
+	padding-top:25px;
+}
+.subscribe form input {
+	color:#a5a5a5;
+    letter-spacing: 0.01em;
+	font-size:14px;
+	padding:10px 30px;
+	border:none;
+	border-radius:5px;
+}
+.subscribe form input[type="text"]{
+	margin-right:10px;
+}
+.subscribe form input[type="submit"]{	
+	color:#ffffff;
+	background-image: linear-gradient(orange, tomato) ;
+	cursor:pointer;
+}
+.subscribe form input[type="submit"]:hover{
+    background-image: linear-gradient( tomato,orange) ;
+}
+footer{
+    min-height: 100px;
+    text-align: center;
+    background-color:#FEF3EC;
+    overflow: hidden;
+}
+.highlited-2{
+    color: tomato;;
+}
+
+.highlited-3{
+    color: #6d4f4f;;
+}
+hr{
+    height: 3px;
+    width: 10%;
+    margin: auto;
+    background-color: #424040;
+}
+
