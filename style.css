@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
+/**navigation**/
 nav{
     margin-top: 30px;
     width: 90%;
@@ -30,7 +31,7 @@ ul li:hover a{
 .current a{
     color: #FE472D;
 }
-
+/**opening-section**/
 .opening{
     width: 80%;
     margin: auto;
@@ -76,7 +77,7 @@ ul li:hover a{
 .btn:hover{
     background-image: linear-gradient( tomato,orange);
 }
-
+/**about-us-section**/
 .about-us{
     display: flex;
     background-image: url(images/bg.png);
@@ -104,6 +105,7 @@ ul li:hover a{
     font-size: 20px;
     margin-bottom: 20px;
 }
+/**popular-recipies-section**/
 .popular-recipies{
     width: 80%;
     margin: auto;
@@ -154,6 +156,7 @@ ul li:hover a{
     width: 100%;
     height: auto;
 }
+/**social-engagement-section**/
 .social-engagement{
     display: flex;
     width: 80%;
@@ -176,6 +179,7 @@ ul li:hover a{
     text-align: center;
     padding: 30px 0;
 }
+/**subscribe-section**/
 .subscribe{
 	background-image: url(images/bg.png);
 	margin-top: 100px;
@@ -211,6 +215,7 @@ ul li:hover a{
 .subscribe form input[type="submit"]:hover{
     background-image: linear-gradient( tomato,orange) ;
 }
+/**footer-section*/
 footer{
     min-height: 100px;
     text-align: center;
@@ -230,4 +235,5 @@ hr{
     margin: auto;
     background-color: #424040;
 }
+/*****************************************/
 
